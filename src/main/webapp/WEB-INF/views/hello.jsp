@@ -9,5 +9,6 @@
 <body>
 	<h1>Main</h1>
 	<h3>message: ${message}</h3> 
+	<h3>footer</h3>
 </body>
 </html>
