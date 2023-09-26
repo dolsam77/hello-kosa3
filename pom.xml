@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.kosa</groupId>
-	<artifactId>controller</artifactId>
+	<artifactId>controlle</artifactId>
 	<name>hello-kosa3</name>
 	<packaging>war</packaging>
-	<version>SNAPSHOT</version>
+	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
 		<java-version>11</java-version>
 		<org.springframework-version>5.0.7.RELEASE</org.springframework-version>
@@ -118,6 +118,7 @@
 		</dependency>        
 	</dependencies>
     <build>
+    	<finalName>hello-kosa3</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-eclipse-plugin</artifactId>
